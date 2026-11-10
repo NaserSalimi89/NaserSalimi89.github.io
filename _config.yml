@@ -16,9 +16,11 @@
 title: Naser Salimi
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Embedded Systems Developer
+  12+ years of experience
+  STM32, FreeRTOS, reliability, safety
+  automotive electronics, medical electronics, industrial
+
 twitter_username: username
 github_username: NaserSalimi89
 minimal_mistakes_skin: default
@@ -59,33 +61,48 @@ plugins:
 
 author:
   name   : "Naser Salimi"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Embedded Systems Developer"
+  avatar : "/assets/images/personal-photo.jpg"
+  bio    : >-
+          Embedded Systems Developer with 12+ years of experience. 
+          Building systems from concept to certifications and mass production.
+          
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    #- label: "Website"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://"
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+   #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    #- label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
+    #  url: "https://instagram.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:salimi.naser89@gmail.com"
+    - label: "Resume"
+      icon: "far fa-fw fa-file-pdf"
+      url: "/assets/docs/Resume-NaserSalimi.pdf"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+    #  url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/NaserSalimi89"
+    #- label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
+    #  url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/nasersalimi/"
+    #- label: "Stack Overflow"
+    #  icon: "fab fa-fw fa-stack-overflow"
+    #  url: "https://stackoverflow.com/users/82540"
 
 defaults:
   # _posts
@@ -113,3 +130,10 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "your-ga-tracking-id"
+    anonymize_ip: true
+    
