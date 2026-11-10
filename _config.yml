@@ -62,7 +62,6 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Embedded Systems Developer"
   links:
-    hide:  true
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://"
